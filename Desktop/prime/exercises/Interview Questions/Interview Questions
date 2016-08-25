@@ -1,0 +1,17 @@
+Interview Snippets:
+
+1.Given the following list, create an algorithm that will remove all duplicates from the array.
+var names = ["Mark", "Scott", "Joseph", "Fred", "Aesop", "Fred", "Beard", "Beta", "Joseph", "Mark", "Scott"];
+
+function removeDup(arr){
+var i
+out = [];
+obj = {};
+for (i = 0; i < arr. length; i ++){
+obj[arr[i]]=0;
+  }
+  for (i in obj) {
+    out.push(i);
+  }
+  return out;
+}
